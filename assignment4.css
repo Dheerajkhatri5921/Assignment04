@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+  background-color: cornsilk;
+  font-family: 'Noto Sans', sans-serif;
+  
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+li,a,.contact_button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}    
+
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+
+.card{
+    width: 21%;
+    height: 355px;
+    border: 2px solid black;
+    float: left;
+    margin: 1.8cm;
+    border-radius: 20px;
+    background-color: rgba(236, 244, 250, 0.467);
+}
+
+.Image1{
+   padding-left: 1cm;  
+   
+}
+
+.Button{
+   float: right;
+   padding: 3mm;
+   
+}
+
+img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 261px;
+    height: 210px;
+}
+
+.Buttonstyle{
+    border: black solid 2px;
+    border-radius: 3px;
+}
+
+.textfield{
+    padding-left: 10px ;
+}
